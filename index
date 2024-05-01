@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Expenses Report</title>
+<style>
+    body { font-family: Arial, sans-serif; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+    th { background-color: #f2f2f2; }
+</style>
+</head>
+<body>
+<h2>Expenses Report</h2>
+<table>
+    <thead>
+        <tr>
+            <th>Дата</th>
+            <th>Расходы</th>
+            <th>Сумма</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr><td>15.02.2023</td><td>Кофе</td><td>2400</td></tr>
+        <tr><td>15.02.2023</td><td>Такси</td><td>1680</td></tr>
+        <tr><td>16.02.2023</td><td>Перекус</td><td>2000</td></tr>
+        <tr><td>16.02.2023</td><td>Такси</td><td>1920</td></tr>
+        <tr><td>17.02.2023</td><td>Такси</td><td>1140</td></tr>
+        <tr><td>17.02.2023</td><td>Обед</td><td>3000</td></tr>
+        <tr><td>17.02.2023</td><td>Кофе</td><td>1800</td></tr>
+        <tr><td>18.02.2023</td><td>-</td><td>0</td></tr>
+        <tr><td>19.02.2023</td><td>Кофе</td><td>2400</td></tr>
+        <tr><td>20.02.2023</td><td>Продукты</td><td>5790</td></tr>
+        <tr><td>21.02.2023</td><td>Кофе</td><td>2000</td></tr>
+        <tr><td>22.02.2023</td><td>-</td><td>0</td></tr>
+    </tbody>
+</table>
+</body>
+</html>
